@@ -1,0 +1,29 @@
+---
+title: "Untitled"
+output: html_document
+---
+
+Для начала подключим пару пакетиков
+
+```{r,message=FALSE}
+library(tidyverse)
+library(lmtest)
+library(mfx)
+```
+
+
+Создадим наборрр данных
+
+```{r}
+data = tibble(y = c(1, 1, 1, 1),
+               x = c(20, 30, 40, 40))
+data
+```
+
+Оценим логистическую регрессию.
+
+```{r}
+effects = logitmfx(y ~ x, data)
+effects
+```
+

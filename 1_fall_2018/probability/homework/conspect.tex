@@ -1,0 +1,62 @@
+\documentclass{article}
+\input{head}
+\begin{document}
+
+Все те подмножества $A\subseteq\Omega$, для которых по условиям эксперимента возможен ответ одного из двух типов: $\omega\in A$ или $\omega\notin A$, --- будем называть \textit{событиями}\cite[29]{sh}.
+
+$A\cup B=\{\omega\in\Omega: \omega\in A \lor \omega\in B\}$.
+
+$A\cap B=\{\omega\in\Omega:\omega\in A \land \omega\in B\}$.
+
+$\bar A=\{\omega: \omega\in\Omega\land\omega\notin A\}$
+
+$B\setminus A=\{\omega:\omega\in B\land\omega\notin A\}$.
+
+$\bar A=\Omega\setminus A$.
+
+$A\cap\bar A=\varnothing$
+
+$A\cup B \land AB=\varnothing \Leftrightarrow A+B$.
+
+Пусть $\mathscr{A}_0$ --- система множеств $A\subseteq \Omega$.
+
+Система подмножеств множества $\Omega$ является \textit{алгеброй}, если:
+\begin{enumerate}
+	\item $\Omega\in\mathscr{A}$
+	\item 
+		$(
+		A\in\mathscr{A} \land B\in\mathscr{A})
+		\Rightarrow
+		(A\cup{B}, A\cap{B}, A\setminus{B})
+		\in\mathscr{A}$.
+\end{enumerate}
+
+Система множеств
+$$\mathscr{D}=\{D_1,...,D_n\}$$
+образует \textit{разбиение} множества $\Omega$, а $D_i$ являются \textit{атомами} этого разбиения, если множества $D_i$ непусты, попарно не пересекаются, и их сумма равна $\Omega$:
+$$D_1+...+D_n=\Omega$$.
+
+Вместе с пустым множеством $\varnothing$ всевозможные объединения множеств из $\mathscr D$ образуют \textit{алгебру, порожденную разбиением $\mathscr D$}, обозначаемую $\alpha(\mathscr D)$.
+
+\textbf{Утверждение.}
+Если $\mathscr{D}$ --- некоторое разбиение, то ему однозначно ставится в соответствие алгебра $\mathscr{B}=\alpha(\mathscr{D})$.
+
+Справедливо и обратное: пусть $\mathscr B$ --- некоторая алгебра подмножеств конечного пространства $\Omega$. Тогда найдется, и притом единственное, разбиение $\mathscr D$, атомы которого являются элементами алгебры $\mathscr B$, и такое, что $\mathscr B=\alpha(\mathscr D)$.
+В самом деле, пусть множество $D\in\mathscr B$ и обладает тем свойством, что для всякого $B\in\mathscr B$ множество $D\cap B$ или совпадает с $D$, или является пустым множеством.
+Тогде совокупность таких множеств $D$ образует разбиение $\mathscr D$ с требуемым свойством $\alpha(\mathscr D)=\mathscr B$.
+
+Пусть $\mathscr D_1$ и $\mathscr D_2$ --- два разбиения. Будем говорить, что разбиение $\mathscr D_2$ <<мельче>> разбиения $\mathscr D_1$, и записывать это в виде $\mathscr D_1 \preccurlyeq \mathscr D_2$, если $\alpha(\mathscr D_1)\subseteq\alpha(\mathscr D_2)$.
+
+Если пространство $\Omega$ состоит из конечного числа точек $\omega_1,...,\omega_N$, то общее число $N(\mathscr A)$ множеств равно $2^N$. Действительно, каждое непустое множество $A\in\mathscr A$ может быть представлено в виде
+\begin{center}
+$A=\{\omega_{i_1},...,\omega_{i_k}\},$
+где
+$\omega_{i_j}\in\Omega, 1\leqslant k \leqslant N$.
+\end{center}
+
+
+
+\bibliographystyle{unsrt}
+\bibliography{biblio}
+
+\end{document}

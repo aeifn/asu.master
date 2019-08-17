@@ -1,0 +1,62 @@
+---
+title: "new"
+output: html_document
+editor_options: 
+  chunk_output_type: console
+---
+
+# Очень важное исследование
+
+```{r,message=FALSE}
+library(tidyverse)
+```
+
+```{r}
+glimpse(diamonds)
+```
+
+Построим график
+
+```{r}
+qplot(data = diamonds,
+      x=carat,
+      y=price,
+      color=color)
+```
+
+```{r}
+model = lm(data=diamonds,
+           price ~ carat + x + y + z)
+summary(model)
+```
+
+А теперь перейдем к логарифмам.
+
+```{r}
+qplot(data = diamonds,
+      x=log(carat),
+      y=log(price),
+      color=color)+stat_smooth(method = "lm")
+```
+
+```{r}
+d2=mutate(diamonds,
+          log_price=log(price),
+          log_carat=log(carat))
+d2
+```
+
+```{r}
+my_data = rio::import("C:/Users/User.402-5/Documents/data.ods")
+glimpse(my_data)
+```
+
+
+А теперь построим доверительные интервалы
+
+```{r}
+confint(model,
+        level = 0.5
+        )
+```
+
