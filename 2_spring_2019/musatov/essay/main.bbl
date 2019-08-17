@@ -1,0 +1,146 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.0 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{ynt/global//global/global}
+    \entry{neumann}{book}{}
+      \name{author}{2}{}{%
+        {{uniquename=0,uniquepart=base,hash=f8744afb2b8eb53c5804cbac615dbad1}{%
+           family={Neumann},
+           familyi={N\bibinitperiod},
+           given={John},
+           giveni={J\bibinitperiod},
+           givenun=0,
+           prefix={von},
+           prefixi={v\bibinitperiod},
+           prefixun=0}}%
+        {{uniquename=0,uniquepart=base,hash=9a5e5068a8192ce97865c96f1dc9be3b}{%
+           family={Morgenstern},
+           familyi={M\bibinitperiod},
+           given={Oskar},
+           giveni={O\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Princeton, New Jersey}%
+      }
+      \list{publisher}{1}{%
+        {Princeton University Press}%
+      }
+      \strng{namehash}{60b9741f66d2319fdadf5a8582536594}
+      \strng{fullhash}{60b9741f66d2319fdadf5a8582536594}
+      \strng{bibnamehash}{60b9741f66d2319fdadf5a8582536594}
+      \strng{authorbibnamehash}{60b9741f66d2319fdadf5a8582536594}
+      \strng{authornamehash}{60b9741f66d2319fdadf5a8582536594}
+      \strng{authorfullhash}{60b9741f66d2319fdadf5a8582536594}
+      \field{sortinit}{1}
+      \field{sortinithash}{2174f786c6195e7fe2ee1c229b416e29}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Theory of games and economic behavior}
+      \field{year}{1944}
+    \endentry
+    \entry{agt}{book}{}
+      \name{author}{4}{}{%
+        {{uniquename=0,uniquepart=base,hash=dd03ed102537d5040adaf7ede9bad0ec}{%
+           family={Nisan},
+           familyi={N\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=efce6f6d496cdcc1bb07fb47dfecb3aa}{%
+           family={Roughgarden},
+           familyi={R\bibinitperiod},
+           given={Tim},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=b68fe90101326ab15c1bc77e49780304}{%
+           family={Tardos},
+           familyi={T\bibinitperiod},
+           given={Eva},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{uniquename=0,uniquepart=base,hash=4391dea254c3bbcaff1fefed241caed0}{%
+           family={Vazirani},
+           familyi={V\bibinitperiod},
+           given={Vijay\bibnamedelima V.},
+           giveni={V\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {NY, USA}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge Universitu Press}%
+      }
+      \strng{namehash}{a461b403bdb909ab1f593fcc8e04d108}
+      \strng{fullhash}{9ed5abeecf9430399cb1acc82fcf57e3}
+      \strng{bibnamehash}{a461b403bdb909ab1f593fcc8e04d108}
+      \strng{authorbibnamehash}{a461b403bdb909ab1f593fcc8e04d108}
+      \strng{authornamehash}{a461b403bdb909ab1f593fcc8e04d108}
+      \strng{authorfullhash}{9ed5abeecf9430399cb1acc82fcf57e3}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Algorithmic Game Theory}
+      \field{year}{2007}
+    \endentry
+    \entry{anons12}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,uniquepart=base,hash=a1a4f7f9a624b14d32992bf162995d35}{%
+           family={Мусатов},
+           familyi={М\bibinitperiod},
+           given={Д.\bibnamedelimi В.},
+           giveni={Д\bibinitperiod\bibinitdelim В\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {МФТИ}%
+      }
+      \strng{namehash}{a1a4f7f9a624b14d32992bf162995d35}
+      \strng{fullhash}{a1a4f7f9a624b14d32992bf162995d35}
+      \strng{bibnamehash}{a1a4f7f9a624b14d32992bf162995d35}
+      \strng{authorbibnamehash}{a1a4f7f9a624b14d32992bf162995d35}
+      \strng{authornamehash}{a1a4f7f9a624b14d32992bf162995d35}
+      \strng{authorfullhash}{a1a4f7f9a624b14d32992bf162995d35}
+      \field{sortinit}{2}
+      \field{sortinithash}{cbff857e587bcb4635511624d773949e}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{year}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{russian}
+      \field{title}{Алгоритмическая теория игр}
+      \field{year}{2012}
+      \verb{urlraw}
+      \verb https://mipt.ru/education/chairs/da/education/bachelor/materials/special/special_archive/spring2012/musatov_spring2012.php
+      \endverb
+      \verb{url}
+      \verb https://mipt.ru/education/chairs/da/education/bachelor/materials/special/special_archive/spring2012/musatov_spring2012.php
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
