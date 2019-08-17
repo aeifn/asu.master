@@ -9,7 +9,7 @@
  * Комбинаторика — [Александр Александрович Приходько](https://mipt.ru/education/chairs/dm/staff/prihodko.php) (МФТИ)
  * Теория сложности вычислений — [Даниил Владимирович Мусатов](https://mipt.ru/education/chairs/dm/staff/musatov.php) (МФТИ)
  * Микроэкономика — [Александр Юрьевич Филатов](http://math.isu.ru/ru/chairs/me/staff/filatov.html) (ИГУ)
- * Вероятность — [Максим Евгеньевич Жуковский](https://mipt.ru/education/chairs/dm/staff/zhukovsky.php)
+ * Вероятность — [Максим Евгеньевич Жуковский](https://mipt.ru/education/chairs/dm/staff/zhukovsky.php) (МФТИ)
  * Теория коллективного выбора — [Дмитрий Александрович Шварц](https://www.hse.ru/org/persons/64944) (HSE)
  * Современные компьютерные технологии — (АГУ)
  * [Константин Сергеевич Сорокин](https://www.hse.ru/org/persons/13666396) (HSE)
