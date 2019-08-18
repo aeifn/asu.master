@@ -1,5 +1,6 @@
 #!/usr/bin/env sh
-export MASTER_HOME=$PWD
-export TEXINPUTS=.:$MASTER_HOME/include:
+export MASTER_HOME=~/asu.master
+export INCLUDE=$MASTER_HOME/include
+export TEXINPUTS=.:$INCLUDE:
 
 
