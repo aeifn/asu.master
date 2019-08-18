@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+export MASTER_HOME=$PWD
+export TEXINPUTS=.:$MASTER_HOME/include:
+
+
