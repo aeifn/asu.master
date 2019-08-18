@@ -9,8 +9,8 @@
 Материалы
 ---------
 
--   [Блог Скотта Ааронсона](https://www.scottaaronson.com/blog/)
--   [Ланс Фортноу](https://lance.fortnow.com)
+-   [Блог Скотта Ааронсона](https://www.scottaaronson.com/blog/) (University of Texas at Austin)
+-   [Ланс Фортноу](https://lance.fortnow.com) (Illinois Institute of Technology, Chicago)
     -   [Блог](https://blog.computationalcomplexity.org/)
     -   Книга «[Golden Ticket](books/golden_ticket.pdf)»
 -   Moore, Mertens «[Nature of computation](books/nat_of_comp.pdf)»
