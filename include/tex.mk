@@ -4,12 +4,10 @@ BIBTEX=biber
 .PHONY: clean
 .PHONY: build
 
-all: $(TARGET).pdf
+all: $(TARGET)
 
 clean:
 	rm -f *.aux *.log *.blg *~ *.bcf *.bbl *.toc *.out *.run.xml
-
-$(TARGET).pdf: $(TARGET).tex $(TARGET).bib ${INCLUDE}/common.tex build
 
 build:
 	$(LATEX) $(TARGET)
