@@ -3,8 +3,7 @@
 
 АГУ, 1 семестр 2018-2019
 
-Преподаватель: [Даниил
-Мусатов](https://mipt.ru/education/chairs/dm/staff/musatov.php)
+Преподаватель: [Даниил Мусатов](https://mipt.ru/education/chairs/dm/staff/musatov.php) (МФТИ)
 
 Материалы
 ---------
