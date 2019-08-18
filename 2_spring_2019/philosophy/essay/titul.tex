@@ -1,0 +1,41 @@
+% https://tex.stackexchange.com/questions/10130/use-the-values-of-title-author-and-date-on-a-custom-title-page
+\makeatletter
+\begin{titlepage}
+\newpage
+
+\begin{center}
+Министерство науки и высшего образования РФ \\
+Адыгейский государственный университет
+\end{center}
+
+\vspace{8em}
+
+\begin{center}
+\Large Кафедра философии и социологии \\ 
+\end{center}
+
+\vspace{2em}
+
+\begin{center}
+\Large \@title \\
+(\subtitle)
+\end{center}
+
+\vspace{6em}
+
+\begin{flushright}
+Выполнил: \\
+магистрант 1 курса математического факультета \\
+\@author
+\end{flushright}
+
+
+\vspace{\fill}
+
+\begin{center}
+Майкоп \\ \yearf\@date
+\end{center}
+
+\end{titlepage}
+\makeatother
+
