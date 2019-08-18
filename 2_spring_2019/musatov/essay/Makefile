@@ -1,8 +1,3 @@
-all: latex bibtex latex latex
+TARGET=essay
+include ${MASTER_HOME}/include/tex.mk
 
-latex:
-	pdflatex main
-bibtex:
-	bibtex main
-clean:
-	rm *.aux *.pdf *.log *.blg *~ *.bcf *.bbl *.toc
