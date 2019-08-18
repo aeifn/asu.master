@@ -12,10 +12,10 @@
 -   [Блог Скотта Ааронсона](https://www.scottaaronson.com/blog/)
 -   [Ланс Фортноу](https://lance.fortnow.com)
     -   [Блог](https://blog.computationalcomplexity.org/)
-    -   Книга «[Golden Ticket](golden_ticket.pdf)»
--   Moore, Mertens «[Nature of computation](nat_of_comp.pdf)»
+    -   Книга «[Golden Ticket](books/golden_ticket.pdf)»
+-   Moore, Mertens «[Nature of computation](books/nat_of_comp.pdf)»
 -   [Блог Ричарда Липтона](http://rjlipton.wordpress.com/)
--   [Книга](compl-book.pdf)
+-   [Книга](books/compl-book.pdf)
 
 Задание
 -------
