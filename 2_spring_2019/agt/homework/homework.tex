@@ -5,6 +5,7 @@
 \newcommand{\task}[1]{\textbf{Задача #1. }}
 
 \bibliography{bib}
+\addbibresource{../essay/sample.bib}
 
 \begin{document}
 \maketitle
@@ -48,6 +49,10 @@
 
 \textbf{Указание:} модифицировать цифры в одной из стандартных конструкций (пример Пигу или парадокс Браесса).
 
+\textbf{Definition. } The \textit{price of anarchy} of a game is the ratio between the worst objective function (целевая функция) value of an equilibrium of the game and that of an optimal outcome}
+
+%%%%%%%%%%%%%%
+\begin{comment}
 \textbf{Задача о маршрутизации делимого трафика}\cite{t2014}
 
 Дан ориентированный граф $G=(V,E)$ без петель и кратных ребер. Дан некоторый набор троек $(s_i, t_i, x_i)$, где $s_i,t_i\in V, x_i>0, i=\overline{1,n}$. 
@@ -56,7 +61,19 @@
 Потоком по сети называется набор неотрицательных чисел ${x_{ie}}_{i=1,...,n, e\in E}$.
 
 Потоком через вершину называется $f_{iv}=\Sigma_{e выходит из v}x_{ie} - \Sigma_{e входит в v}x_{ie}$. Поток называется допустимым, если $\forall i f_{is_i}=x_i, f_{it_i}=-x_i, f_iv=0$ при $v\ne s_i,t_i$. Издержками от потока называется величина $\Sigma_e c_e (\Sigma_i x_{ie})$. 
+\end{comment}
+%%%%%%%%%%%%
 
+\textbf{Пример Пигу (Pigou`s Example)} \cite[447]{agt}
+
+\includegraphics{pigou}
+
+Two disjoing edges connect source vertex $s$ to a destination vertex $t$. Each edge has a \textit{cost function} $c(\dot)$, which describes the cost (e.g., travel time) incurred by users of the edge, as a function of the amount of traffic routed on the edge. We are interested in the price of anarchy\cite{poa} of this game.
+
+Suppose one unit of traffic, representing a very large population of players, and each player chooses independently between the two routes from $s$ to $t$. Assuming that each player aims to minimize its cost, the lower edge is a dominant strategy. 
+In the unique equilibrium, all of them incure one unit of cost. 
+
+Optimal outcome is to minimize average cost for players.
 
 
 
