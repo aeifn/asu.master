@@ -1,8 +1,3 @@
-% https://tex.stackexchange.com/questions/10130/use-the-values-of-title-author-and-date-on-a-custom-title-page
-\makeatletter
-\begin{titlepage}
-\newpage
-
 \begin{center}
 Министерство науки и высшего образования РФ \\
 Адыгейский государственный университет
@@ -17,8 +12,12 @@
 \vspace{2em}
 
 \begin{center}
-\Large \@title \\
-(\subtitle)
+\Large Взгляды математиков на методологические проблемы науки \\
+\large Г. Кантор, Д. Гильберт, А. Пуанкаре, Г. Вейль, Н. Н. Лузин, А. Н. Колмогоров, В. И. Арнольд, С. П. Новиков
+\vspace{1em}
+
+\small
+Реферат по дисциплине <<История и философия науки>>
 \end{center}
 
 \vspace{6em}
@@ -26,16 +25,14 @@
 \begin{flushright}
 Выполнил: \\
 магистрант 1 курса математического факультета \\
-\@author
+Кузьмичёв Е. А.
 \end{flushright}
 
 
 \vspace{\fill}
 
 \begin{center}
-Майкоп \\ \yearf\@date
+Майкоп \\ 2020
 \end{center}
 
-\end{titlepage}
-\makeatother
-
+\thispagestyle{empty}
